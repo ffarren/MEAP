@@ -1,0 +1,98 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+  float:left;
+  padding:22px 20px;
+  color:#fff;
+}
+
+.container{
+  width:1500px;
+  padding-left:15px;
+  padding-right:15px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.header{
+  height:70px;
+  background-color: #11324D;
+}
+
+.header-logo{
+  font-size:36px;
+  padding:10px 40px;
+  color:#fff;
+  float:left;
+}
+
+.top-wrapper{
+  padding: 100px 50px 70px 0;
+  text-align: left;
+  /* background-repeat: no-repeat;
+  background-position: right;
+  background-size:700px 450px;
+  background-image:url(https://i.ibb.co/8MmH01m/Citizens-wearing-face-masks-for-protection-from-smog-and-dusty-air-People-walking-near-plant-pipes-a.jpg); */
+}
+
+.form p{
+  font-size:30px;
+}
+
+.form input{
+  margin-bottom: 25px;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.submit{
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.submit:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+.footer p{
+  color:#b3aeb5;
+  font-size:12px;
+  margin-left: 30px;
+}
+
+.footer{
+  position: fixed;
+  width: 100%;
+  height:75px;
+  background-color: #E7E0C9;
+  margin-top:200px;
+  bottom:0;
+}
+
+.footer-logo{
+  padding-top: 20px;
+  margin-left: 30px;
+}
